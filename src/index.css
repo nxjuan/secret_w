@@ -1,0 +1,27 @@
+html, body{
+    background: linear-gradient(140deg, #153557, #4B1482, #2f4796, #4B1482);
+    background-size: 300% 300%;
+    animation: colors 8s ease infinite;
+    height: 100%;
+    color: aliceblue;
+}
+
+body{
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
